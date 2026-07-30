@@ -1,0 +1,6 @@
+{
+  "name": "Morfocraft: Formação de Palavras",
+  "description": "Jogo educativo e interativo de Língua Portuguesa para o Ensino Médio sobre processos de formação de palavras (derivação e composição).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
