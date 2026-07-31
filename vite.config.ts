@@ -4,8 +4,8 @@ import path from 'path';
 import { defineConfig } from 'vite';
 export default defineConfig(() => {
   return {
-    // Adicione esta linha com o nome do seu repositório entre barras:
-    base: '/Morfos-Craft.Project/', 
+    // Caminho relativo para funcionar tanto em domínio próprio quanto no GitHub Pages:
+    base: './', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
